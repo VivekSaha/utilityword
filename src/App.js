@@ -25,7 +25,7 @@ function App() {
       setMode('dark');
       document.body.style.backgroundColor = 'gray';
       showAlert("Dark Mode has Enabled!", 'success');
-      document.title = 'TextUtil - Darkmode';
+      document.title = 'Word Utility - Darkmode';
       // setInterval(() => {
       //   document.title = 'TextUtil - ZigZak';
       // }, 2000);
@@ -37,13 +37,13 @@ function App() {
       setMode('light');
       document.body.style.backgroundColor = 'white';
       showAlert("Light Mode has Enabled!", 'success');
-      document.title = 'TextUtil - Lightmode'
+      document.title = 'Word Utility - Lightmode'
     }
   }
   return (
     <>
       {/* <Router> */}
-      <Navbar title="TextUtils" aboutText="About Us" mode={mode} toggleMode={toggleMode}/>
+      <Navbar title="Word Utility" aboutText="About Us" mode={mode} toggleMode={toggleMode}/>
       <Alert alert={alert}/>
         <div className="container my-3">
         <TextForm heading="Enter the text to Analyse." mode={mode} showAlert={showAlert} />
