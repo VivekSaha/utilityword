@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/utilityword/static/css/main.5c1ce43a.css",
+    "main.js": "/utilityword/static/js/main.39338f2d.js",
+    "static/js/453.4eabf530.chunk.js": "/utilityword/static/js/453.4eabf530.chunk.js",
+    "index.html": "/utilityword/index.html",
+    "main.5c1ce43a.css.map": "/utilityword/static/css/main.5c1ce43a.css.map",
+    "main.39338f2d.js.map": "/utilityword/static/js/main.39338f2d.js.map",
+    "453.4eabf530.chunk.js.map": "/utilityword/static/js/453.4eabf530.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c1ce43a.css",
+    "static/js/main.39338f2d.js"
+  ]
+}

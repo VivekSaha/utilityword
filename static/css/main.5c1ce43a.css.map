@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.5c1ce43a.css","mappings":"AAAA,yBACI,kBACJ","sources":["App.css"],"sourcesContent":[".btn-primary, .btn-danger {\r\n    border-radius: 30px;\r\n}"],"names":[],"sourceRoot":""}
