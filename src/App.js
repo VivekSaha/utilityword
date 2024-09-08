@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import './App.css';
-import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from './components/Footer';
 
 
 
@@ -25,35 +24,21 @@ function App() {
       setMode('dark');
       document.body.style.backgroundColor = 'gray';
       showAlert("Dark Mode has Enabled!", 'success');
-      document.title = 'Word Utility - Darkmode';
-      // setInterval(() => {
-      //   document.title = 'TextUtil - ZigZak';
-      // }, 2000);
-      // setInterval(() => {
-      //   document.title = 'TextUtil - No Issue';
-      // }, 1500);
     }
     else {
       setMode('light');
       document.body.style.backgroundColor = 'white';
       showAlert("Light Mode has Enabled!", 'success');
-      document.title = 'Word Utility - Lightmode'
     }
   }
   return (
     <>
-      {/* <Router> */}
-      <Navbar title="Word Utility" aboutText="About Us" mode={mode} toggleMode={toggleMode}/>
+      <Navbar title="Words Utility" aboutText="About Us" mode={mode} toggleMode={toggleMode}/>
       <Alert alert={alert}/>
         <div className="container my-3">
-        <TextForm heading="Enter the text to Analyse." mode={mode} showAlert={showAlert} />
-        <About />
-          {/* <Routes>                             */}
-            {/* <Route exact path="/" element={<TextForm heading="Enter the text to Analyse." mode={mode} showAlert={showAlert} />} />
-            <Route exact path="/about" element={<About />} />  */}
-          {/* </Routes> */}
+        <TextForm heading="Enter your text below the box to Analyse." mode={mode} showAlert={showAlert} />
         </div>
-      {/* </Router>       */}
+      <Footer mode={mode}/>
     </>
   );
 }
