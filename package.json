@@ -1,6 +1,6 @@
 {
-  "homepage": "https://viveksaha.github.io/wordsutility",
-  "name": "react01",
+  "homepage": "https://viveksaha.github.io/utilityword",
+  "name": "utilityword",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
